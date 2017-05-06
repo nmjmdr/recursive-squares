@@ -16,7 +16,7 @@ The following pattern is generated:
 <img src="https://raw.githubusercontent.com/nmjmdr/recursive-squares/master/patterns/pattern2.png" width="300" height="300">
 
 <br>
-### changing the way corners are obtained, like below:
+Changing the way corners are obtained, like below:
 
 ```javascript
 function getCorners(x,y,w) {
