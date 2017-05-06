@@ -17,7 +17,8 @@ The following pattern is generated:
 
 <br>
 ### changing the way corners are obtained, like below:
-```
+
+```javascript
 function getCorners(x,y,w) {
   var corners = [];
   corners.push({x:x-w/1-w/1.5,y:y-w/1-w/1.5})
@@ -27,6 +28,7 @@ function getCorners(x,y,w) {
   return corners
 }
 ```
+
 Produces this:
 <br>
 <img src="https://raw.githubusercontent.com/nmjmdr/recursive-squares/master/patterns/pattern3.png" width="300" height="300">
