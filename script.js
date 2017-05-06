@@ -4,7 +4,7 @@ ctx.stroke();
 }
 
 function getCorners(x,y,w) {
-var corners = [];
+  var corners = [];
   corners.push({x:x-w/2-w/4,y:y-w/2-w/4})
   corners.push({x:x+w/2+w/4,y:y-w/2-w/4})
   corners.push({x:x+w/2+w/4,y:y+w/2+w/4})
@@ -12,13 +12,13 @@ var corners = [];
   return corners
 }
 
-function draw(ctx,preCorners,d,w) {
+function draw(ctx,preCorners,d,w,multiplier) {
 var newCorners = []
   preCorners.forEach((preCorner)=>{
     corners = getCorners(preCorner.x,preCorner.y,w/d);
     newCorners.push(...corners)
     corners.forEach((corner)=>{
-      square(ctx,corner.x,corner.y,w/(2*d));
+      square(ctx,corner.x,corner.y,w/(multiplier*d));
     })
   })
   return newCorners
@@ -43,7 +43,7 @@ square(ctx,corner.x,corner.y,w/2);
 
 var d = start
 while(d<20) {
-corners = draw(ctx,corners,d,w)
+corners = draw(ctx,corners,d,w,multiplier)
 d = d * multiplier
 }
 }
