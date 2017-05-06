@@ -6,7 +6,7 @@ On every corner of this square-0, four more squares with width equal to half of 
 
 The above steps are then recursively applied to each of the generated squares.
 
-The pattern is generated is:
+The following pattern is generated:
 <br>
 <img src="https://raw.githubusercontent.com/nmjmdr/recursive-squares/master/patterns/pattern1.png" width="150" height="150">
 
