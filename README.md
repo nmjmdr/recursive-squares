@@ -16,7 +16,7 @@ The following pattern is generated:
 <img src="https://raw.githubusercontent.com/nmjmdr/recursive-squares/master/patterns/pattern2.png" width="300" height="300">
 
 <br>
-<img src="https://raw.githubusercontent.com/nmjmdr/recursive-squares/master/patterns/pattern4.png" width="300" height="300">
+<img src="https://raw.githubusercontent.com/nmjmdr/recursive-squares/master/patterns/Pattern4.png" width="300" height="300">
 
 <br>
 Changing the way corners are obtained, like below:
